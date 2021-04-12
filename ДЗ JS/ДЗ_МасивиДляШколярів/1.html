@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <label> Введіть кількість оцінок <input type="number" id="number"> </label>
+    <br>
+    <br>
+    <label> Введіть оцінку від 2 до 5 <input type="number" id="rating" min="2" max="5"> </label>
+    <br>
+    <input type="button" value="Додати оцінку до масиву" onclick="addArrey()">
+    <br>
+    <input type="button" value="Знайти середній бал" onclick="averageMark()">
+    <br>
+    <input type="button" value="Знаходження категорії" onclick="findcategory()">
+    <br>
+    <input type="button" value="Очистити всі поля" onclick="clearall()">
+    <p id="output"></p>
+
+    <!--scripts-->
+    <script src="script5.js"></script>
+</body>
