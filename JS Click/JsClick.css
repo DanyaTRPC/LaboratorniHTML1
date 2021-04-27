@@ -1,0 +1,100 @@
+.body{
+    width: 1200px;
+    height: 1200px;
+    margin-top: 400px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    width: 750px;
+    height: 180px;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 17%;
+    border-radius: 10px;
+    font-family: Gill Sans,sans-serif;
+}
+.task{
+    
+    line-height: 50px;
+}
+.action{
+    line-height: 25px;
+}
+#button1{
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+
+}
+#button2{
+    margin-left: 678px;
+    margin-top: -110px;
+
+}
+
+
+#myButton2{
+    margin-top: -150px;
+    margin-left: 0px;
+    width: 170px;
+    height: 50px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+#action2{
+    margin-top: -51px;
+    width: 170px;
+    margin-left: 764px;
+    position: relative;
+
+}
+#action1{
+    margin-top: -85px;
+    width: 80px;
+    margin-left: 678px;
+    position: relative;
+}
+#myButton1{
+    margin-top: -200px;
+    margin-left: 0px;
+    width: 80px;
+    height: 50px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+#myButton3{
+    margin-top: -200px;
+    margin-left: 0px;
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+#myButton4{
+    margin-top: -150px;
+    margin-left: 0px;
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+#action3{
+    margin-top: -100px;
+    margin-left: 678px;
+    width: 100px;
+}
+#action4{
+    margin-top: -51px;
+    margin-left: 785px;
+    width: 100px;
+}
+
+
